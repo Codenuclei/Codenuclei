@@ -17,11 +17,11 @@
 I'm a passionate technologist focused on building scalable solutions and fostering tech communities. My journey involves continuous learning and sharing knowledge with fellow developers.
 
 ### 🌟 Quick Highlights
-- 🔭 Currently working on [Project Name]
+- 🔭 Currently working on HTML CSS
 - 🌱 Learning Advanced System Design & Cloud Architecture
 - 👯 Open to collaborate on Open Source & Community Projects
 - 🎯 2024 Goals: Contribute to more open source projects
-- 🎖️ [Add any certifications or achievements]
+- 🎖️ SIH internal 2025 || Microsoft Github Copilot Certification || Hackathon winner
 
 ## 💻 Tech Stack
 
