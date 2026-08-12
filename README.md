@@ -1,12 +1,7 @@
 <div align="center">
 
-<!-- Pixel-art banner -->
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/header.png" width="100%" />
-
-<br/>
-
-<!-- Animated CSS SVG header -->
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/animated-header.svg" width="100%" />
+<!-- Cinematic hero with liquid glass + particles + neural net -->
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/hero.svg" width="100%" />
 
 <br/>
 
@@ -35,7 +30,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/directives.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/domains.svg" width="100%" />
 
 </div>
 
