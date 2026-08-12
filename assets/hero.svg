@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <!-- Liquid glass refraction filter -->
+    <filter id="liquid" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.03" numOctaves="3" result="noise" seed="2">
+        <animate attributeName="baseFrequency" values="0.015 0.03;0.02 0.04;0.015 0.03" dur="8s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="15" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    
+    <!-- Deep glow -->
+    <filter id="deepGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="15" result="blur1"/>
+      <feGaussianBlur stdDeviation="40" result="blur2"/>
+      <feGaussianBlur stdDeviation="80" result="blur3"/>
+      <feMerge>
+        <feMergeNode in="blur3"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Chromatic aberration -->
+    <filter id="chromatic" x="-10%" y="-10%" width="120%" height="120%">
+      <feOffset in="SourceGraphic" dx="2" dy="0" result="r"/>
+      <feOffset in="SourceGraphic" dx="-2" dy="0" result="b"/>
+      <feBlend in="r" in2="b" mode="screen"/>
+    </filter>
+    
+    <!-- Gradient mesh -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#0d1117" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    </radialGradient>
+    
+    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff41"/>
+      <stop offset="25%" stop-color="#00d4aa"/>
+      <stop offset="50%" stop-color="#0099ff"/>
+      <stop offset="75%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#ff0080"/>
+    </linearGradient>
+    
+    <!-- Particle pattern -->
+    <pattern id="particles" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#00ff41" opacity="0.6"/>
+      <circle cx="35" cy="25" r="0.8" fill="#00d4aa" opacity="0.5"/>
+      <circle cx="50" cy="45" r="1.2" fill="#0099ff" opacity="0.4"/>
+      <circle cx="20" cy="50" r="0.6" fill="#bc8cff" opacity="0.5"/>
+    </pattern>
+  </defs>
+  
+  <style>
+    @keyframes float-slow {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(10px, -15px) rotate(1deg); }
+      50% { transform: translate(-5px, -25px) rotate(0deg); }
+      75% { transform: translate(-15px, -10px) rotate(-1deg); }
+    }
+    
+    @keyframes float-medium {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(15px, 10px) scale(1.02); }
+      66% { transform: translate(-10px, 20px) scale(0.98); }
+    }
+    
+    @keyframes pulse-ring {
+      0% { transform: scale(0.8); opacity: 0.8; }
+      100% { transform: scale(1.5); opacity: 0; }
+    }
+    
+    @keyframes data-stream {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    
+    @keyframes neural-pulse {
+      0%, 100% { opacity: 0.3; r: 3; }
+      50% { opacity: 1; r: 5; }
+    }
+    
+    @keyframes shimmer {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    
+    @keyframes type-glow {
+      0%, 100% { text-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41, 0 0 60px #00ff41; }
+      50% { text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41; }
+    }
+    
+    .float-slow { animation: float-slow 12s ease-in-out infinite; }
+    .float-medium { animation: float-medium 8s ease-in-out infinite; }
+    .pulse-ring { animation: pulse-ring 3s ease-out infinite; }
+    .data-stream { animation: data-stream 20s linear infinite; }
+    .neural-node { animation: neural-pulse 2s ease-in-out infinite; }
+    .shimmer { animation: shimmer 3s ease-in-out infinite; }
+    .type-glow { animation: type-glow 4s ease-in-out infinite; }
+    
+    text {
+      font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+    }
+  </style>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#0a0a0f"/>
+  <rect width="1200" height="400" fill="url(#centerGlow)"/>
+  <rect width="1200" height="400" fill="url(#particles)"/>
+  
+  <!-- Animated grid -->
+  <g opacity="0.15">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ff41" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+  </g>
+  
+  <!-- Neural network connections -->
+  <g class="float-slow" opacity="0.4">
+    <path d="M 200 200 Q 400 100 600 200 T 1000 200" fill="none" stroke="url(#cyberGrad)" stroke-width="1" class="data-stream" stroke-dasharray="5,5"/>
+    <path d="M 200 200 Q 400 300 600 200 T 1000 200" fill="none" stroke="url(#cyberGrad)" stroke-width="1" class="data-stream" stroke-dasharray="5,5" style="animation-delay: -10s"/>
+  </g>
+  
+  <!-- Neural nodes -->
+  <g class="float-medium">
+    <circle cx="200" cy="200" r="4" fill="#00ff41" class="neural-node" filter="url(#deepGlow)"/>
+    <circle cx="600" cy="200" r="6" fill="#00d4aa" class="neural-node" filter="url(#deepGlow)" style="animation-delay: -0.5s"/>
+    <circle cx="1000" cy="200" r="4" fill="#0099ff" class="neural-node" filter="url(#deepGlow)" style="animation-delay: -1s"/>
+    
+    <!-- Pulse rings -->
+    <circle cx="600" cy="200" r="20" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.5" class="pulse-ring"/>
+    <circle cx="600" cy="200" r="20" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.5" class="pulse-ring" style="animation-delay: -1s"/>
+    <circle cx="600" cy="200" r="20" fill="none" stroke="#0099ff" stroke-width="1" opacity="0.5" class="pulse-ring" style="animation-delay: -2s"/>
+  </g>
+  
+  <!-- Central hologram -->
+  <g transform="translate(600, 200)">
+    <!-- Outer ring -->
+    <ellipse cx="0" cy="0" rx="180" ry="60" fill="none" stroke="url(#cyberGrad)" stroke-width="2" opacity="0.6" filter="url(#liquid)"/>
+    
+    <!-- Inner ring -->
+    <ellipse cx="0" cy="0" rx="120" ry="40" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.4" filter="url(#liquid)" style="animation-delay: -2s"/>
+    
+    <!-- Core -->
+    <circle cx="0" cy="0" r="30" fill="#00ff41" opacity="0.2" filter="url(#deepGlow)"/>
+    <circle cx="0" cy="0" r="15" fill="#00ff41" opacity="0.6" filter="url(#deepGlow)"/>
+  </g>
+  
+  <!-- Title with chromatic aberration -->
+  <g transform="translate(600, 120)">
+    <text x="0" y="0" text-anchor="middle" fill="#00ff41" font-size="72" font-weight="bold" letter-spacing="12" filter="url(#chromatic)" class="type-glow">CODENUCLEI</text>
+  </g>
+  
+  <!-- Subtitle -->
+  <g transform="translate(600, 280)">
+    <text x="0" y="0" text-anchor="middle" fill="#c9d1d9" font-size="18" letter-spacing="6" opacity="0.8">GPU  •  CUDA  •  AI INFERENCE  •  WEB3</text>
+  </g>
+  
+  <!-- Terminal line -->
+  <g transform="translate(600, 320)">
+    <text x="0" y="0" text-anchor="middle" fill="#7d8590" font-size="14" font-family="'Fira Code', monospace">
+      <tspan fill="#00ff41">$</tspan>
+      <tspan> initialize --kernel-aware --gpu-native --chain-ready</tspan>
+      <tspan fill="#00ff41" class="cursor-blink">_</tspan>
+    </text>
+  </g>
+  
+  <!-- Corner HUD elements -->
+  <g stroke="#00ff41" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M 30 60 L 30 30 L 60 30"/>
+    <path d="M 1140 30 L 1170 30 L 1170 60"/>
+    <path d="M 30 340 L 30 370 L 60 370"/>
+    <path d="M 1170 340 L 1170 370 L 1140 370"/>
+  </g>
+  
+  <!-- Data readouts -->
+  <g fill="#00ff41" font-size="10" font-family="'Fira Code', monospace" opacity="0.6">
+    <text x="40" y="50">SYS: ONLINE</text>
+    <text x="40" y="360">VRAM: ∞</text>
+    <text x="1100" y="50">CORES: 64</text>
+    <text x="1100" y="360">RPC: MAINNET</text>
+  </g>
+  
+  <!-- Shimmer overlay -->
+  <rect x="0" y="0" width="200" height="400" fill="url(#cyberGrad)" opacity="0.05" class="shimmer"/>
+</svg>
