@@ -26,17 +26,17 @@
   <g class="card" transform="translate(215,20)" style="animation-delay:-1.5s">
     <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg1)" stroke-width="1.5" filter="url(#glass)"/>
     <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">PULL REQUESTS</text>
-    <text x="16" y="76" fill="url(#cg1)" font-size="34" font-weight="bold" class="stat-num">31</text>
+    <text x="16" y="76" fill="url(#cg1)" font-size="34" font-weight="bold" class="stat-num">0</text>
   </g>
   <g class="card" transform="translate(406,20)" style="animation-delay:-3.0s">
     <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg2)" stroke-width="1.5" filter="url(#glass)"/>
     <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">MERGED</text>
-    <text x="16" y="76" fill="url(#cg2)" font-size="34" font-weight="bold" class="stat-num">26</text>
+    <text x="16" y="76" fill="url(#cg2)" font-size="34" font-weight="bold" class="stat-num">0</text>
   </g>
   <g class="card" transform="translate(597,20)" style="animation-delay:-4.5s">
     <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg3)" stroke-width="1.5" filter="url(#glass)"/>
     <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">FOLLOWERS</text>
-    <text x="16" y="76" fill="url(#cg3)" font-size="34" font-weight="bold" class="stat-num">5</text>
+    <text x="16" y="76" fill="url(#cg3)" font-size="34" font-weight="bold" class="stat-num">0</text>
   </g>
   <g transform="translate(0,170)">
     <text x="24" y="0" fill="#8b93a8" font-size="11" letter-spacing="2">LANGUAGE MIX — LIVE FROM GITHUB API</text>
