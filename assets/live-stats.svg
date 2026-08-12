@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1152" height="300" viewBox="0 0 1152 300">
   <defs>
-    <linearGradient id="cg0" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f5d4"/><stop offset="100%" stop-color="#00bbf9"/></linearGradient><linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#9b5de5"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fee440"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00bbf9"/><stop offset="100%" stop-color="#9b5de5"/></linearGradient><linearGradient id="cg4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3fb950"/><stop offset="100%" stop-color="#00d4aa"/></linearGradient><linearGradient id="cg5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f85149"/><stop offset="100%" stop-color="#ff6b35"/></linearGradient>
+    <linearGradient id="cg0" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f5d4"/><stop offset="100%" stop-color="#00bbf9"/></linearGradient><linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#9b5de5"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fee440"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00bbf9"/><stop offset="100%" stop-color="#9b5de5"/></linearGradient>
     <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
       <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="n"/>
       <feDisplacementMap in="SourceGraphic" in2="n" scale="4"/>
@@ -37,16 +37,6 @@
     <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg3)" stroke-width="1.5" filter="url(#glass)"/>
     <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">FOLLOWERS</text>
     <text x="16" y="76" fill="url(#cg3)" font-size="34" font-weight="bold" class="stat-num">0</text>
-  </g>
-  <g class="card" transform="translate(788,20)" style="animation-delay:-0.0s">
-    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg4)" stroke-width="1.5" filter="url(#glass)"/>
-    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">CONTRIBUTIONS/YR</text>
-    <text x="16" y="76" fill="url(#cg4)" font-size="34" font-weight="bold" class="stat-num">0</text>
-  </g>
-  <g class="card" transform="translate(979,20)" style="animation-delay:-1.5s">
-    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg5)" stroke-width="1.5" filter="url(#glass)"/>
-    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">ORGS CONTRIBUTED</text>
-    <text x="16" y="76" fill="url(#cg5)" font-size="34" font-weight="bold" class="stat-num">7</text>
   </g>
   <g transform="translate(0,170)">
     <text x="24" y="0" fill="#8b93a8" font-size="11" letter-spacing="2">LANGUAGE MIX — LIVE FROM GITHUB API</text>
