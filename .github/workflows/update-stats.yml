@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest
@@ -27,16 +31,12 @@ jobs:
       - name: Generate live stats SVG
         env:
           GH_USERNAME: Codenuclei
-          # GH_TOKEN: the Actions-provided token, auto-issued per run,
-          # never stored, never configured by hand. Only used for basic
-          # authenticated REST/search calls (repo counts, PR counts).
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # GH_USER_TOKEN: optional. A fine-grained PAT with ONLY the
           # "read:user" scope, added by hand as a repo secret named
           # STATS_PAT (Settings -> Secrets and variables -> Actions).
-          # It is never printed, echoed, or exposed in logs. Needed only
-          # for the contribution-calendar figure; everything else in the
-          # card still renders correctly if this is left unset.
+          # It is never printed, echoed, or exposed in logs. Needed for
+          # accurate PR counts and the contribution-calendar figure; repo
+          # and follower counts still render correctly if left unset.
           GH_USER_TOKEN: ${{ secrets.STATS_PAT }}
         run: python3 scripts/generate_stats.py
 
@@ -47,7 +47,11 @@ jobs:
           git add assets/live-stats.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: refresh live stats [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh live stats [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && break
+            echo "push attempt $i failed, retrying..."
+            sleep 3
+          done

@@ -8,10 +8,14 @@ third-party Vercel/Heroku service in the loop, so nothing can silently 404
 or go into deployment-paused limbo again.
 
 Auth:
-  - GH_TOKEN: a token with `read:user` scope, provided via a repo secret
-    (never hard-coded, never logged). Falls back to unauthenticated REST
-    calls for anything that doesn't strictly need it, so the script still
-    produces a card even if the secret isn't configured yet.
+  - GH_USER_TOKEN: optional. A fine-grained personal access token with only
+    the "read:user" scope, stored as a repo secret (STATS_PAT), never
+    hard-coded, never logged, never printed. Powers the search-API PR
+    counts and the GraphQL contribution calendar — both require a token
+    tied to a real user account (the Actions-issued GITHUB_TOKEN does not
+    have permission for author-scoped search queries). Without it, the
+    script still runs and renders public repo/follower counts using plain
+    unauthenticated REST calls; the PR/contribution cards just show 0.
 """
 import json
 import os
@@ -20,18 +24,11 @@ import urllib.request
 import urllib.error
 
 USERNAME = os.environ.get("GH_USERNAME", "Codenuclei")
-
-# REST_TOKEN: any authenticated token works here (the Actions-provided
-# GITHUB_TOKEN is enough) — the search API just needs *some* auth, no
-# special scopes. USER_TOKEN: only needed for the GraphQL contributions
-# query below, which requires a token belonging to the actual user
-# (a fine-grained PAT with read:user scope, stored as a repo secret).
-REST_TOKEN = os.environ.get("GH_TOKEN", "").strip()
 USER_TOKEN = os.environ.get("GH_USER_TOKEN", "").strip()
 
 REST_HEADERS = {"Accept": "application/vnd.github+json", "User-Agent": USERNAME}
-if REST_TOKEN:
-    REST_HEADERS["Authorization"] = f"Bearer {REST_TOKEN}"
+if USER_TOKEN:
+    REST_HEADERS["Authorization"] = f"Bearer {USER_TOKEN}"
 
 
 def rest_get(path, params=""):

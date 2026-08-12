@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1152" height="300" viewBox="0 0 1152 300">
   <defs>
-    <linearGradient id="cg0" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f5d4"/><stop offset="100%" stop-color="#00bbf9"/></linearGradient><linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#9b5de5"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fee440"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00bbf9"/><stop offset="100%" stop-color="#9b5de5"/></linearGradient>
+    <linearGradient id="cg0" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f5d4"/><stop offset="100%" stop-color="#00bbf9"/></linearGradient><linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#9b5de5"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fee440"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00bbf9"/><stop offset="100%" stop-color="#9b5de5"/></linearGradient><linearGradient id="cg4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3fb950"/><stop offset="100%" stop-color="#00d4aa"/></linearGradient><linearGradient id="cg5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f85149"/><stop offset="100%" stop-color="#ff6b35"/></linearGradient>
     <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
       <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="n"/>
       <feDisplacementMap in="SourceGraphic" in2="n" scale="4"/>
@@ -38,14 +38,24 @@
     <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">FOLLOWERS</text>
     <text x="16" y="76" fill="url(#cg3)" font-size="34" font-weight="bold" class="stat-num">0</text>
   </g>
+  <g class="card" transform="translate(788,20)" style="animation-delay:-0.0s">
+    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg4)" stroke-width="1.5" filter="url(#glass)"/>
+    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">CONTRIBUTIONS/YR</text>
+    <text x="16" y="76" fill="url(#cg4)" font-size="34" font-weight="bold" class="stat-num">0</text>
+  </g>
+  <g class="card" transform="translate(979,20)" style="animation-delay:-1.5s">
+    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg5)" stroke-width="1.5" filter="url(#glass)"/>
+    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">ORGS CONTRIBUTED</text>
+    <text x="16" y="76" fill="url(#cg5)" font-size="34" font-weight="bold" class="stat-num">7</text>
+  </g>
   <g transform="translate(0,170)">
     <text x="24" y="0" fill="#8b93a8" font-size="11" letter-spacing="2">LANGUAGE MIX — LIVE FROM GITHUB API</text>
     <g transform="translate(0,16)">
       <rect x="24" y="0" width="1104" height="28" rx="6" fill="#12121a" stroke="#2a2a3a"/>
-      <rect class="bar" x="24" y="2" width="382" height="24" rx="4" fill="#3178c6" style="animation-delay:0.00s"/><rect class="bar" x="406" y="2" width="297" height="24" rx="0" fill="#e34c26" style="animation-delay:0.08s"/><rect class="bar" x="703" y="2" width="170" height="24" rx="0" fill="#3572A5" style="animation-delay:0.16s"/><rect class="bar" x="873" y="2" width="170" height="24" rx="0" fill="#f1e05a" style="animation-delay:0.24s"/><rect class="bar" x="1043" y="2" width="42" height="24" rx="0" fill="#DA5B0B" style="animation-delay:0.32s"/><rect class="bar" x="1085" y="2" width="42" height="24" rx="4" fill="#AA6746" style="animation-delay:0.40s"/>
+      <rect class="bar" x="24" y="2" width="368" height="24" rx="4" fill="#3178c6" style="animation-delay:0.00s"/><rect class="bar" x="392" y="2" width="286" height="24" rx="0" fill="#e34c26" style="animation-delay:0.08s"/><rect class="bar" x="678" y="2" width="204" height="24" rx="0" fill="#3572A5" style="animation-delay:0.16s"/><rect class="bar" x="882" y="2" width="164" height="24" rx="0" fill="#f1e05a" style="animation-delay:0.24s"/><rect class="bar" x="1046" y="2" width="41" height="24" rx="0" fill="#DA5B0B" style="animation-delay:0.32s"/><rect class="bar" x="1087" y="2" width="41" height="24" rx="4" fill="#AA6746" style="animation-delay:0.40s"/>
     </g>
     <g transform="translate(0,68)">
-      <circle cx="24" cy="0" r="5" fill="#3178c6"/><text x="34" y="4" fill="#c9d1d9" font-size="11">TypeScript 35%</text><circle cx="214" cy="0" r="5" fill="#e34c26"/><text x="224" y="4" fill="#c9d1d9" font-size="11">HTML 27%</text><circle cx="404" cy="0" r="5" fill="#3572A5"/><text x="414" y="4" fill="#c9d1d9" font-size="11">Python 15%</text><circle cx="594" cy="0" r="5" fill="#f1e05a"/><text x="604" y="4" fill="#c9d1d9" font-size="11">JavaScript 15%</text><circle cx="784" cy="0" r="5" fill="#DA5B0B"/><text x="794" y="4" fill="#c9d1d9" font-size="11">Jupyter Notebook 4%</text><circle cx="974" cy="0" r="5" fill="#AA6746"/><text x="984" y="4" fill="#c9d1d9" font-size="11">Solidity 4%</text>
+      <circle cx="24" cy="0" r="5" fill="#3178c6"/><text x="34" y="4" fill="#c9d1d9" font-size="11">TypeScript 33%</text><circle cx="214" cy="0" r="5" fill="#e34c26"/><text x="224" y="4" fill="#c9d1d9" font-size="11">HTML 26%</text><circle cx="404" cy="0" r="5" fill="#3572A5"/><text x="414" y="4" fill="#c9d1d9" font-size="11">Python 19%</text><circle cx="594" cy="0" r="5" fill="#f1e05a"/><text x="604" y="4" fill="#c9d1d9" font-size="11">JavaScript 15%</text><circle cx="784" cy="0" r="5" fill="#DA5B0B"/><text x="794" y="4" fill="#c9d1d9" font-size="11">Jupyter Notebook 4%</text><circle cx="974" cy="0" r="5" fill="#AA6746"/><text x="984" y="4" fill="#c9d1d9" font-size="11">Solidity 4%</text>
     </g>
   </g>
   <text x="24" y="286" fill="#5a6272" font-size="9">auto-generated · github actions · zero third-party dependency</text>
