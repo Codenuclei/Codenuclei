@@ -1,9 +1,18 @@
+# Keeps assets/live-stats.svg fresh without any third-party stats service
+# in the loop. Runs the generator in scripts/generate_stats.py, then
+# commits the result back to main if it actually changed.
 name: Update Live Stats
 
 on:
+  # Every 6h so numbers don't go stale even with no repo activity.
   schedule:
     - cron: "0 */6 * * *"
+  # Lets us (or the user) force a refresh from the Actions tab on demand,
+  # e.g. right after adding the STATS_PAT secret for the first time.
   workflow_dispatch: {}
+  # Refresh on every push too, but ignore pushes that only touch the
+  # generated SVG itself — otherwise the bot's own commit below would
+  # re-trigger this workflow in an infinite loop.
   push:
     branches: [main]
     paths-ignore:
@@ -12,6 +21,11 @@ on:
 permissions:
   contents: write
 
+# Only one run of this workflow at a time. Without this, a manual
+# workflow_dispatch fired close to a push-triggered run can race to push
+# the same branch and one of them gets rejected (seen in practice while
+# building this pipeline) — the retry loop below is a second line of
+# defense on top of this.
 concurrency:
   group: update-stats
   cancel-in-progress: false
@@ -34,9 +48,16 @@ jobs:
           # GH_USER_TOKEN: optional. A fine-grained PAT with ONLY the
           # "read:user" scope, added by hand as a repo secret named
           # STATS_PAT (Settings -> Secrets and variables -> Actions).
-          # It is never printed, echoed, or exposed in logs. Needed for
-          # accurate PR counts and the contribution-calendar figure; repo
-          # and follower counts still render correctly if left unset.
+          # It is never printed, echoed, or exposed in logs — this line
+          # just wires the encrypted secret into the process environment,
+          # where generate_stats.py reads it and nothing else ever sees it.
+          #
+          # Deliberately not required right now: repos/stars/gists always
+          # render from public, unauthenticated calls. PRs, followers, and
+          # the contribution/streak cards simply don't appear in the SVG
+          # until this secret exists — see the module docstring in
+          # scripts/generate_stats.py for exactly why each of those needs
+          # a real user token instead of the Actions-issued GITHUB_TOKEN.
           GH_USER_TOKEN: ${{ secrets.STATS_PAT }}
         run: python3 scripts/generate_stats.py
 
@@ -50,6 +71,8 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh live stats [skip ci]"
+          # Rebase-and-retry a few times in case another run (e.g. the
+          # concurrent workflow_dispatch + push case above) pushed first.
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin main && break
             echo "push attempt $i failed, retrying..."

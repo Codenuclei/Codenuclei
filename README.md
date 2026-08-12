@@ -12,6 +12,10 @@
 [![Email](https://img.shields.io/badge/Email-Reach_Out-0d1117?style=for-the-badge&logo=gmail&logoColor=f472b6&labelColor=0d1117)](mailto:abhishekghosh.air1@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=60a5fa&labelColor=0d1117)](https://linkedin.com/in/YOUR_LINKEDIN)
 
+<br/>
+
+[About](#-transmission-log--about) · [Directives](#-core-directives) · [Stats](#-archive-terminal--by-the-numbers) · [Builds](#-the-workshop--featured-builds) · [Arsenal](#-tech-arsenal) · [Roadmap](#-roadmap) · [Connect](#-end-transmission--connect)
+
 </div>
 
 <br/>
@@ -80,10 +84,6 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/live-stats.svg" width="100%" />
 
 <sub>Live — refreshed every 6h straight from the GitHub API by a workflow in this repo, zero third-party dependency</sub>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=Codenuclei&theme=radical&hide_border=true&background=0D1117&fire=FBBF24&currStreakLabel=6EE7F9&sideLabels=B8C0D0&sideNums=FFFFFF" width="60%" />
 
 </div>
 

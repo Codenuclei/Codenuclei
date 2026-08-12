@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="300" viewBox="0 0 1152 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="290" viewBox="0 0 1152 290">
   <defs>
-    <linearGradient id="cg0" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f5d4"/><stop offset="100%" stop-color="#00bbf9"/></linearGradient><linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#9b5de5"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fee440"/><stop offset="100%" stop-color="#f15bb5"/></linearGradient><linearGradient id="cg3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00bbf9"/><stop offset="100%" stop-color="#9b5de5"/></linearGradient>
+    <linearGradient id="cg0" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f5d4"/><stop offset="100%" stop-color="#00bbf9"/></linearGradient><linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fb923c"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient><linearGradient id="cg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#00d4aa"/></linearGradient>
     <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
       <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="n"/>
       <feDisplacementMap in="SourceGraphic" in2="n" scale="4"/>
@@ -16,29 +16,24 @@
     .bar { transform-origin: left; animation: barGrow 1.2s cubic-bezier(.16,1,.3,1) forwards; }
     text { font-family: 'SF Mono','Fira Code',monospace; }
   </style>
-  <rect width="1152" height="300" fill="url(#bg)" rx="16"/>
+  <rect width="1152" height="290" fill="url(#bg)" rx="16"/>
   
-  <g class="card" transform="translate(24,20)" style="animation-delay:-0.0s">
-    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg0)" stroke-width="1.5" filter="url(#glass)"/>
-    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">PUBLIC REPOS</text>
-    <text x="16" y="76" fill="url(#cg0)" font-size="34" font-weight="bold" class="stat-num">48</text>
+  <g class="card" transform="translate(298.0,20.0)" style="animation-delay:-0.0s">
+    <rect width="175.0" height="110" rx="12" fill="#12121a" stroke="url(#cg0)" stroke-width="1.5" filter="url(#glass)"/>
+    <text x="14" y="32" fill="#8b93a8" font-size="9" letter-spacing="0.5">PUBLIC REPOS</text>
+    <text x="14" y="76" fill="url(#cg0)" font-size="34" font-weight="bold" class="stat-num">48</text>
   </g>
-  <g class="card" transform="translate(215,20)" style="animation-delay:-1.5s">
-    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg1)" stroke-width="1.5" filter="url(#glass)"/>
-    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">PULL REQUESTS</text>
-    <text x="16" y="76" fill="url(#cg1)" font-size="34" font-weight="bold" class="stat-num">0</text>
+  <g class="card" transform="translate(489.0,20.0)" style="animation-delay:-1.5s">
+    <rect width="175.0" height="110" rx="12" fill="#12121a" stroke="url(#cg1)" stroke-width="1.5" filter="url(#glass)"/>
+    <text x="14" y="32" fill="#8b93a8" font-size="9" letter-spacing="0.5">STARS EARNED</text>
+    <text x="14" y="76" fill="url(#cg1)" font-size="34" font-weight="bold" class="stat-num">6</text>
   </g>
-  <g class="card" transform="translate(406,20)" style="animation-delay:-3.0s">
-    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg2)" stroke-width="1.5" filter="url(#glass)"/>
-    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">MERGED</text>
-    <text x="16" y="76" fill="url(#cg2)" font-size="34" font-weight="bold" class="stat-num">0</text>
+  <g class="card" transform="translate(680.0,20.0)" style="animation-delay:-3.0s">
+    <rect width="175.0" height="110" rx="12" fill="#12121a" stroke="url(#cg2)" stroke-width="1.5" filter="url(#glass)"/>
+    <text x="14" y="32" fill="#8b93a8" font-size="9" letter-spacing="0.5">PUBLIC GISTS</text>
+    <text x="14" y="76" fill="url(#cg2)" font-size="34" font-weight="bold" class="stat-num">0</text>
   </g>
-  <g class="card" transform="translate(597,20)" style="animation-delay:-4.5s">
-    <rect width="175" height="110" rx="12" fill="#12121a" stroke="url(#cg3)" stroke-width="1.5" filter="url(#glass)"/>
-    <text x="16" y="34" fill="#8b93a8" font-size="9" letter-spacing="1">FOLLOWERS</text>
-    <text x="16" y="76" fill="url(#cg3)" font-size="34" font-weight="bold" class="stat-num">0</text>
-  </g>
-  <g transform="translate(0,170)">
+  <g transform="translate(0,160)">
     <text x="24" y="0" fill="#8b93a8" font-size="11" letter-spacing="2">LANGUAGE MIX — LIVE FROM GITHUB API</text>
     <g transform="translate(0,16)">
       <rect x="24" y="0" width="1104" height="28" rx="6" fill="#12121a" stroke="#2a2a3a"/>
@@ -48,5 +43,5 @@
       <circle cx="24" cy="0" r="5" fill="#3178c6"/><text x="34" y="4" fill="#c9d1d9" font-size="11">TypeScript 33%</text><circle cx="214" cy="0" r="5" fill="#e34c26"/><text x="224" y="4" fill="#c9d1d9" font-size="11">HTML 26%</text><circle cx="404" cy="0" r="5" fill="#3572A5"/><text x="414" y="4" fill="#c9d1d9" font-size="11">Python 19%</text><circle cx="594" cy="0" r="5" fill="#f1e05a"/><text x="604" y="4" fill="#c9d1d9" font-size="11">JavaScript 15%</text><circle cx="784" cy="0" r="5" fill="#DA5B0B"/><text x="794" y="4" fill="#c9d1d9" font-size="11">Jupyter Notebook 4%</text><circle cx="974" cy="0" r="5" fill="#AA6746"/><text x="984" y="4" fill="#c9d1d9" font-size="11">Solidity 4%</text>
     </g>
   </g>
-  <text x="24" y="286" fill="#5a6272" font-size="9">auto-generated · github actions · zero third-party dependency</text>
+  <text x="24" y="276" fill="#5a6272" font-size="9">auto-generated · github actions · zero third-party dependency</text>
 </svg>
