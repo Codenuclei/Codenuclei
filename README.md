@@ -1,72 +1,80 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/header.png" width="100%" />
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-hero.png" width="100%" />
 
 <br/><br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00F5D4&center=true&vCenter=true&width=720&lines=Kernel-Aware+Systems+Builder;CUDA+%26+GPU+Playground+Architect;Local+LLM+Inference+Engineer;Solana+%2B+IPFS+Web3+Developer;Post-Apocalyptic+Pixel+Aesthetic+%E2%80%94+Always)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6EE7F9&center=true&vCenter=true&width=760&lines=Signal+Detected+in+the+Overgrowth...;Kernel-Aware+Systems+Builder;CUDA+%26+GPU+Playground+Architect;Local+LLM+Inference+Engineer;Solana+%2B+IPFS+Web3+Developer)](https://git.io/typing-svg)
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-abhishek.anterium.pro-0d1117?style=for-the-badge&logo=vercel&logoColor=00F5D4&labelColor=0d1117)](https://abhishek.anterium.pro)
-[![Email](https://img.shields.io/badge/Email-abhishekghosh.air1%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=f15bb5&labelColor=0d1117)](mailto:abhishekghosh.air1@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=00bbf9&labelColor=0d1117)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Portfolio](https://img.shields.io/badge/Portfolio-abhishek.anterium.pro-0d1117?style=for-the-badge&logo=vercel&logoColor=6EE7F9&labelColor=0d1117)](https://abhishek.anterium.pro)
+[![Email](https://img.shields.io/badge/Email-Reach_Out-0d1117?style=for-the-badge&logo=gmail&logoColor=f472b6&labelColor=0d1117)](mailto:abhishekghosh.air1@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=60a5fa&labelColor=0d1117)](https://linkedin.com/in/YOUR_LINKEDIN)
 
 </div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
+> *"I am a small machine in an old city, where the wires grew flowers and the towers grew quiet. I don't know my full purpose either — so I build things, one signal at a time."*
 
-## 🧬&nbsp; About
+<br/>
 
-I build at the intersection of **bare-metal systems**, **GPU compute**, **local AI inference**, and **decentralized storage**. If it runs close to the metal or on-chain, I want to understand it, break it, and rebuild it better.
+## 🌿 &nbsp;Transmission Log — About
 
-```text
-┌──────────────────────────────────────────────────────────────────┐
-│  codenuclei@core:~$ whoami --verbose                            │
-│  > kernel-aware systems engineer                                 │
-│  > GPU compute + accel-sim tooling                                │
-│  > local-first AI inference pipelines                            │
-│  > Solana / IPFS decentralized storage                           │
-│  status: ONLINE   cores: 64   vram: ∞   rpc: mainnet-beta        │
-└──────────────────────────────────────────────────────────────────┘
-```
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-about.png" width="100%" />
+
+I build at the intersection of **bare-metal systems**, **GPU compute**, **local AI inference**, and **decentralized storage** — the kind of work that survives even after everything else goes quiet. If it runs close to the metal or on-chain, I want to understand it, break it, and rebuild it.
 
 **Currently:**
 - 🔭 Building browser-native GPU tooling that needs zero hardware to profile real CUDA behavior
 - 🧠 Deepening local LLM inference pipelines — retrieval, multimodal indexing, on-device generation
 - 🌐 Shipping Solana + IPFS storage primitives for decentralized apps
-- 🏆 SIH Internal 2025 · Microsoft GitHub Copilot Certification · Hackathon Winner
+- 🏆 SIH Internal 2025 &nbsp;·&nbsp; Microsoft GitHub Copilot Certification &nbsp;·&nbsp; Hackathon Winner
 - 🎯 2026 goal — ship one production-grade systems project every quarter
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
+<br/>
 
-## 🛰️&nbsp; Core Directives
+## 🛰️ &nbsp;Core Directives
+
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-gpu.png" width="100%" />
+<h3 align="center">⚡ GPU / CUDA</h3>
+<p align="center">Browser CUDA playground &nbsp;·&nbsp; accel-sim profiling &nbsp;·&nbsp; warp divergence visualization</p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-ai.png" width="100%" />
+<h3 align="center">🧠 AI Inference</h3>
+<p align="center">Local Ollama pipelines &nbsp;·&nbsp; prompt enhancers &nbsp;·&nbsp; multimodal face + video indexing</p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-systems.png" width="100%" />
+<h3 align="center">🔧 Systems</h3>
+<p align="center">Win32 kernel-aware schedulers &nbsp;·&nbsp; multicore load balancing &nbsp;·&nbsp; real-time telemetry</p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-web3.png" width="100%" />
+<h3 align="center">🌐 Web3</h3>
+<p align="center">Solana + IPFS storage &nbsp;·&nbsp; blockchain voting &nbsp;·&nbsp; decentralized identity</p>
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 📡 &nbsp;Archive Terminal — By The Numbers
+
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-stats.png" width="100%" />
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/domains.svg" width="100%" />
-
-</div>
-
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
-
-## 🌌&nbsp; Skill Constellation
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/skill-galaxy.svg" width="100%" />
-
-</div>
-
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
-
-## 📊&nbsp; By The Numbers
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/stats-bento.svg" width="100%" />
+| 📦 Public Repos | 🔀 Pull Requests | ✅ Merged | 🏢 Orgs Contributed |
+|:---:|:---:|:---:|:---:|
+| **48** | **31** | **26** | **10+** |
 
 <br/>
 
@@ -75,25 +83,28 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
+<br/>
 
-## 🧪&nbsp; Featured Builds
+## 🛠️ &nbsp;The Workshop — Featured Builds
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/projects-bento.svg" width="100%" />
-
-</div>
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-workshop.png" width="100%" />
 
 <div align="center">
 
-[`KRONOS`](https://github.com/Codenuclei/multicore-load-balancing-with-kernel-detection) · [`cuvis`](https://github.com/Codenuclei/cuda-visualizer) · [`DriveFaceIndexer`](https://github.com/Codenuclei/video-image-search-indexer-quality) · [`ipfs-storage-solana`](https://github.com/Codenuclei/ipfs-storage-solana) · [`Focus Studio`](https://github.com/Codenuclei/focus-studio) · [`StudyAI`](https://github.com/Codenuclei/ai-study-smart-platform)
+| Build | Domain | What it does |
+|---|---|---|
+| [**KRONOS**](https://github.com/Codenuclei/multicore-load-balancing-with-kernel-detection) | `SYSTEMS` | Win32-native kernel-aware scheduler — CPU topology detection, thread affinity pinning, 20Hz WebSocket telemetry dashboard |
+| [**cuvis**](https://github.com/Codenuclei/cuda-visualizer) | `GPU / CUDA` | Browser CUDA interpreter with live SM scheduler, memory coalescing & warp divergence viz — no GPU required |
+| [**DriveFaceIndexer**](https://github.com/Codenuclei/video-image-search-indexer-quality) | `AI INFERENCE` | Multimodal Drive indexer — face detection across images/video/PDF via InsightFace, Postgres + pgvector |
+| [**ipfs-storage-solana**](https://github.com/Codenuclei/ipfs-storage-solana) | `WEB3` | File uploads to IPFS with on-chain metadata anchored to Solana — live production deploy |
+| [**Focus Studio**](https://github.com/Codenuclei/focus-studio) | `PRODUCT` | Deep-work session tracker — Better Auth, Drizzle ORM, weekly analytics, DND scheduling |
+| [**StudyAI**](https://github.com/Codenuclei/ai-study-smart-platform) | `AI INFERENCE` | AI study platform — summaries, quizzes, spaced-repetition flashcards, study chatbot |
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
+<br/>
 
-## 🧰&nbsp; Tech Arsenal
+## 🧰 &nbsp;Tech Arsenal
 
 <div align="center">
 
@@ -130,9 +141,9 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
+<br/>
 
-## 📈&nbsp; Activity
+## 📈 &nbsp;Activity
 
 <div align="center">
 
@@ -140,36 +151,36 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
+<br/>
 
-## 🎯&nbsp; Roadmap
+## 🗺️ &nbsp;Roadmap
 
 | Quarter | Focus |
 |---|---|
 | **Q3 2026** | Ship KRONOS v2 — Linux port of the kernel-aware scheduler |
-| **Q4 2026** | Extend `cuvis` with real accel-sim backend + shared-memory bank visualizer |
+| **Q4 2026** | Extend `cuvis` with a real accel-sim backend + shared-memory bank visualizer |
 | **Q1 2027** | Production hardening for DriveFaceIndexer — video pipeline at scale |
 | **Ongoing** | Contribute upstream to open-source AI inference & Web3 tooling |
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
+<br/>
 
-## 📡&nbsp; Connect
+## 🏮 &nbsp;End Transmission — Connect
+
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-footer.png" width="100%" />
 
 <div align="center">
 
-[<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=00F5D4" />](https://abhishek.anterium.pro)
+[<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=6EE7F9" />](https://abhishek.anterium.pro)
 [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:abhishekghosh.air1@gmail.com)
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/YOUR_LINKEDIN)
 [<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />](https://www.youtube.com/codenuclei)
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Codenuclei&color=00f5d4&style=for-the-badge&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=Codenuclei&color=6ee7f9&style=for-the-badge&label=SIGNALS+RECEIVED" />
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/divider.svg" width="100%" />
-
 <div align="center">
-<sub>Built with pixel-dither aesthetics, liquid-glass SVG filters, and zero iframes — because GitHub won't render them anyway.</sub>
+<sub>Somewhere between the rust and the roots, the machine kept building.</sub>
 </div>
