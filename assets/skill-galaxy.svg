@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#9b5de5" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0a0a0f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="nodeGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="coreBlur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <style>
+    @keyframes nodePulse { 0%,100% { opacity: 0.65; } 50% { opacity: 1; } }
+    @keyframes corePulse { 0%,100% { transform: scale(1); opacity: 0.75; } 50% { transform: scale(1.18); opacity: 1; } }
+    @keyframes ringBreathe { 0%,100% { opacity: 0.35; } 50% { opacity: 0.75; } }
+    .node { animation: nodePulse 2.6s ease-in-out infinite; }
+    .core { animation: corePulse 4s ease-in-out infinite; transform-origin: 600px 340px; }
+    .orbits { animation: ringBreathe 6s ease-in-out infinite; }
+    text { font-family: 'SF Mono','Fira Code',monospace; }
+  </style>
+
+  <rect width="1200" height="680" fill="#0a0a0f"/>
+  <circle cx="600" cy="340" r="320" fill="url(#coreGlow)"/>
+
+  <g class="orbits"><circle cx="600" cy="340" r="100" fill="none" stroke="#2a2a3a" stroke-width="1" stroke-dasharray="1,7" opacity="0.6"/><circle cx="600" cy="340" r="190" fill="none" stroke="#2a2a3a" stroke-width="1" stroke-dasharray="1,7" opacity="0.6"/><circle cx="600" cy="340" r="280" fill="none" stroke="#2a2a3a" stroke-width="1" stroke-dasharray="1,7" opacity="0.6"/></g>
+  <g><line x1="600" y1="340" x2="600.0" y2="240.0" stroke="#00599C" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="686.6" y2="290.0" stroke="#5c8dbc" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="686.6" y2="390.0" stroke="#76B900" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="600.0" y2="440.0" stroke="#dea584" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="513.4" y2="390.0" stroke="#0078D6" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="513.4" y2="290.0" stroke="#3572A5" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="649.2" y2="156.5" stroke="#bc8cff" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="783.5" y2="290.8" stroke="#e5c1ff" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="734.4" y2="474.4" stroke="#4169E1" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="550.8" y2="523.5" stroke="#6ba8ff" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="416.5" y2="389.2" stroke="#ff0080" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="465.6" y2="205.6" stroke="#f15bb5" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="740.0" y2="97.5" stroke="#9945FF" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="880.0" y2="340.0" stroke="#65C2CB" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="740.0" y2="582.5" stroke="#b0b0b0" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="460.0" y2="582.5" stroke="#8c8cff" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="320.0" y2="340.0" stroke="#3178C6" stroke-width="0.7" opacity="0.22"/><line x1="600" y1="340" x2="460.0" y2="97.5" stroke="#f5f5f5" stroke-width="0.7" opacity="0.22"/></g>
+
+  <circle cx="600" cy="340" r="34" fill="#00f5d4" filter="url(#coreBlur)" class="core" opacity="0.6"/>
+  <circle cx="600" cy="340" r="18" fill="#0a0a0f" stroke="#00f5d4" stroke-width="1.5"/>
+  <text x="600" y="336" text-anchor="middle" fill="#00f5d4" font-size="9" font-weight="bold">CORE</text>
+  <text x="600" y="348" text-anchor="middle" fill="#8b93a8" font-size="7">STACK</text>
+
+  <g><circle cx="600.0" cy="240.0" r="5.5" fill="#00599C" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.00s"/><text x="600.0" y="224.0" text-anchor="middle" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">C</text><circle cx="686.6" cy="290.0" r="5.5" fill="#5c8dbc" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.35s"/><text x="700.5" y="282.0" text-anchor="start" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">C++</text><circle cx="686.6" cy="390.0" r="5.5" fill="#76B900" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.70s"/><text x="700.5" y="398.0" text-anchor="start" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">CUDA</text><circle cx="600.0" cy="440.0" r="5.5" fill="#dea584" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.05s"/><text x="600.0" y="456.0" text-anchor="middle" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Rust</text><circle cx="513.4" cy="390.0" r="5.5" fill="#0078D6" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.40s"/><text x="499.5" y="398.0" text-anchor="end" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Win32</text><circle cx="513.4" cy="290.0" r="5.5" fill="#3572A5" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.75s"/><text x="499.5" y="282.0" text-anchor="end" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Python</text></g>
+  <g><circle cx="649.2" cy="156.5" r="5" fill="#bc8cff" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.00s"/><text x="653.3" y="141.0" text-anchor="middle" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Ollama</text><circle cx="783.5" cy="290.8" r="5" fill="#e5c1ff" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.35s"/><text x="799.0" y="286.7" text-anchor="start" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Vercel AI</text><circle cx="734.4" cy="474.4" r="5" fill="#4169E1" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.70s"/><text x="745.7" y="485.7" text-anchor="start" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">pgvector</text><circle cx="550.8" cy="523.5" r="5" fill="#6ba8ff" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.05s"/><text x="546.7" y="539.0" text-anchor="middle" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">PostgreSQL</text><circle cx="416.5" cy="389.2" r="5" fill="#ff0080" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.40s"/><text x="401.0" y="393.3" text-anchor="end" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">InsightFace</text><circle cx="465.6" cy="205.6" r="5" fill="#f15bb5" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.75s"/><text x="454.3" y="194.3" text-anchor="end" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">FFmpeg</text></g>
+  <g><circle cx="740.0" cy="97.5" r="4.5" fill="#9945FF" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.00s"/><text x="748.0" y="83.7" text-anchor="start" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Solana</text><circle cx="880.0" cy="340.0" r="4.5" fill="#65C2CB" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.35s"/><text x="896.0" y="340.0" text-anchor="start" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">IPFS</text><circle cx="740.0" cy="582.5" r="4.5" fill="#b0b0b0" filter="url(#nodeGlow)" class="node" style="animation-delay:-0.70s"/><text x="748.0" y="596.3" text-anchor="start" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Solidity</text><circle cx="460.0" cy="582.5" r="4.5" fill="#8c8cff" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.05s"/><text x="452.0" y="596.3" text-anchor="end" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Ethereum</text><circle cx="320.0" cy="340.0" r="4.5" fill="#3178C6" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.40s"/><text x="304.0" y="340.0" text-anchor="end" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">TypeScript</text><circle cx="460.0" cy="97.5" r="4.5" fill="#f5f5f5" filter="url(#nodeGlow)" class="node" style="animation-delay:-1.75s"/><text x="452.0" y="83.7" text-anchor="end" fill="#dbe2f0" font-size="12" dy="4" font-weight="500">Next.js</text></g>
+
+  <text x="600" y="35" text-anchor="middle" fill="#c9d1d9" font-size="15" letter-spacing="4" opacity="0.7">SKILL CONSTELLATION</text>
+</svg>
