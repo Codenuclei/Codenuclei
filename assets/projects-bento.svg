@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480">
+  <defs>
+    
+    <linearGradient id="grad0" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f85149"/><stop offset="100%" stop-color="#ff6b35"/>
+    </linearGradient>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#76b900"/><stop offset="100%" stop-color="#00ff41"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bc8cff"/><stop offset="100%" stop-color="#ff0080"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9945FF"/><stop offset="100%" stop-color="#00d4aa"/>
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00bbf9"/><stop offset="100%" stop-color="#9b5de5"/>
+    </linearGradient>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fee440"/><stop offset="100%" stop-color="#f15bb5"/>
+    </linearGradient>
+    <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3"/>
+    </filter>
+  </defs>
+  <style>
+    @keyframes cardFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    .card { animation: cardFloat 6s ease-in-out infinite; }
+    text { font-family: 'SF Mono','Fira Code',monospace; }
+  </style>
+  <rect width="1200" height="480" fill="#0a0a0f"/>
+  
+  <g class="card" transform="translate(20,20)" style="animation-delay:-0.0s">
+    <rect width="380" height="205" rx="14" fill="#12121a" stroke="url(#grad0)" stroke-width="1.5" filter="url(#glass)"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="url(#grad0)"/>
+    <text x="22" y="34" fill="url(#grad0)" font-size="18" font-weight="bold">KRONOS</text>
+    <text x="362" y="34" text-anchor="end" fill="#8b93a8" font-size="12">* 1</text>
+    <rect x="22" y="44" width="58" height="18" rx="9" fill="#f85149" opacity="0.15"/>
+    <text x="30" y="57" fill="#f85149" font-size="10" font-weight="bold" letter-spacing="1">SYSTEMS</text>
+    <text x="22" y="88" fill="#b8c0d0" font-size="12">Win32-native kernel-aware scheduler. Detects</text><text x="22" y="105" fill="#b8c0d0" font-size="12">CPU topology, pins thread affinity, streams</text><text x="22" y="122" fill="#b8c0d0" font-size="12">telemetry at 20Hz over WebSocket.</text>
+    <text x="22" y="189" fill="#5a6272" font-size="10">C &#183; Codenuclei/multicore-load-balancing-with-</text>
+  </g>
+  <g class="card" transform="translate(420,20)" style="animation-delay:-1.3s">
+    <rect width="380" height="205" rx="14" fill="#12121a" stroke="url(#grad1)" stroke-width="1.5" filter="url(#glass)"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="url(#grad1)"/>
+    <text x="22" y="34" fill="url(#grad1)" font-size="18" font-weight="bold">cuvis</text>
+    <text x="362" y="34" text-anchor="end" fill="#8b93a8" font-size="12">new</text>
+    <rect x="22" y="44" width="76" height="18" rx="9" fill="#76b900" opacity="0.15"/>
+    <text x="30" y="57" fill="#76b900" font-size="10" font-weight="bold" letter-spacing="1">GPU / CUDA</text>
+    <text x="22" y="88" fill="#b8c0d0" font-size="12">Browser CUDA interpreter with live SM</text><text x="22" y="105" fill="#b8c0d0" font-size="12">scheduler, memory coalescing and warp</text><text x="22" y="122" fill="#b8c0d0" font-size="12">divergence visualization. No GPU required.</text>
+    <text x="22" y="189" fill="#5a6272" font-size="10">JavaScript &#183; Codenuclei/cuda-visualizer</text>
+  </g>
+  <g class="card" transform="translate(820,20)" style="animation-delay:-2.6s">
+    <rect width="380" height="205" rx="14" fill="#12121a" stroke="url(#grad2)" stroke-width="1.5" filter="url(#glass)"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="url(#grad2)"/>
+    <text x="22" y="34" fill="url(#grad2)" font-size="18" font-weight="bold">DriveFaceIndexer</text>
+    <text x="362" y="34" text-anchor="end" fill="#8b93a8" font-size="12">new</text>
+    <rect x="22" y="44" width="88" height="18" rx="9" fill="#bc8cff" opacity="0.15"/>
+    <text x="30" y="57" fill="#bc8cff" font-size="10" font-weight="bold" letter-spacing="1">AI INFERENCE</text>
+    <text x="22" y="88" fill="#b8c0d0" font-size="12">Multimodal Drive indexer, face detection</text><text x="22" y="105" fill="#b8c0d0" font-size="12">across images, video and PDF via InsightFace</text><text x="22" y="122" fill="#b8c0d0" font-size="12">with pgvector similarity search.</text>
+    <text x="22" y="189" fill="#5a6272" font-size="10">Python &#183; Codenuclei/video-image-search-indexer-qua</text>
+  </g>
+  <g class="card" transform="translate(20,245)" style="animation-delay:-0.0s">
+    <rect width="380" height="205" rx="14" fill="#12121a" stroke="url(#grad3)" stroke-width="1.5" filter="url(#glass)"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="url(#grad3)"/>
+    <text x="22" y="34" fill="url(#grad3)" font-size="18" font-weight="bold">ipfs-storage-solana</text>
+    <text x="362" y="34" text-anchor="end" fill="#8b93a8" font-size="12">* 1</text>
+    <rect x="22" y="44" width="40" height="18" rx="9" fill="#9945FF" opacity="0.15"/>
+    <text x="30" y="57" fill="#9945FF" font-size="10" font-weight="bold" letter-spacing="1">WEB3</text>
+    <text x="22" y="88" fill="#b8c0d0" font-size="12">File uploads to IPFS with on-chain metadata</text><text x="22" y="105" fill="#b8c0d0" font-size="12">anchored to Solana. Live production deploy on</text><text x="22" y="122" fill="#b8c0d0" font-size="12">Vercel.</text>
+    <text x="22" y="189" fill="#5a6272" font-size="10">TypeScript &#183; Codenuclei/ipfs-storage-solana</text>
+  </g>
+  <g class="card" transform="translate(420,245)" style="animation-delay:-1.3s">
+    <rect width="380" height="205" rx="14" fill="#12121a" stroke="url(#grad4)" stroke-width="1.5" filter="url(#glass)"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="url(#grad4)"/>
+    <text x="22" y="34" fill="url(#grad4)" font-size="18" font-weight="bold">Focus Studio</text>
+    <text x="362" y="34" text-anchor="end" fill="#8b93a8" font-size="12">new</text>
+    <rect x="22" y="44" width="58" height="18" rx="9" fill="#00bbf9" opacity="0.15"/>
+    <text x="30" y="57" fill="#00bbf9" font-size="10" font-weight="bold" letter-spacing="1">PRODUCT</text>
+    <text x="22" y="88" fill="#b8c0d0" font-size="12">Deep-work session tracker with Better Auth,</text><text x="22" y="105" fill="#b8c0d0" font-size="12">Drizzle ORM, weekly goal analytics and DND</text><text x="22" y="122" fill="#b8c0d0" font-size="12">scheduling.</text>
+    <text x="22" y="189" fill="#5a6272" font-size="10">TypeScript &#183; Codenuclei/focus-studio</text>
+  </g>
+  <g class="card" transform="translate(820,245)" style="animation-delay:-2.6s">
+    <rect width="380" height="205" rx="14" fill="#12121a" stroke="url(#grad5)" stroke-width="1.5" filter="url(#glass)"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="url(#grad5)"/>
+    <text x="22" y="34" fill="url(#grad5)" font-size="18" font-weight="bold">StudyAI</text>
+    <text x="362" y="34" text-anchor="end" fill="#8b93a8" font-size="12">new</text>
+    <rect x="22" y="44" width="88" height="18" rx="9" fill="#fee440" opacity="0.15"/>
+    <text x="30" y="57" fill="#fee440" font-size="10" font-weight="bold" letter-spacing="1">AI INFERENCE</text>
+    <text x="22" y="88" fill="#b8c0d0" font-size="12">AI study platform: summaries, quizzes, spaced-</text><text x="22" y="105" fill="#b8c0d0" font-size="12">repetition flashcards and a study chatbot on</text><text x="22" y="122" fill="#b8c0d0" font-size="12">Vercel AI SDK.</text>
+    <text x="22" y="189" fill="#5a6272" font-size="10">TypeScript &#183; Codenuclei/ai-study-smart-platform</text>
+  </g>
+</svg>
