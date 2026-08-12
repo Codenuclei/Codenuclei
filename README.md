@@ -79,7 +79,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 <br/>
 
 <img src="https://pixel-profile.vercel.app/api/github-stats?username=Codenuclei&theme=rainbow&dithering=true&hide=avatar" width="49%" />
-<img src="https://pixel-profile.vercel.app/api/github-contributions?username=Codenuclei&theme=rainbow&dithering=true" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=Codenuclei&theme=radical&hide_border=true&background=0D1117&fire=FBBF24&currStreakLabel=6EE7F9&sideLabels=B8C0D0&sideNums=FFFFFF" width="49%" />
 
 </div>
 
