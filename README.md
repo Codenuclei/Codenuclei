@@ -1,18 +1,18 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--  CODENUCLEI · GPU/CUDA × AI INFERENCE × WEB3 · PIXEL DITHER -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/header.png" width="100%" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=220&section=header&text=CODENUCLEI&fontSize=72&fontColor=00ff41&animation=fadeIn&fontAlignY=35&desc=GPU%20%E2%80%A2%20CUDA%20%E2%80%A2%20AI%20Inference%20%E2%80%A2%20Web3&descAlignY=55&descAlign=50&stroke=00ff41&strokeWidth=2" width="100%" />
+<br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Kernel-Aware+Systems+Builder;CUDA+%26+GPU+Playground+Architect;Local+LLM+Inference+Engineer;Solana+%2B+IPFS+Web3+Developer;Post-Apocalyptic+Pixel+Aesthetic)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Kernel-Aware+Systems+Builder;CUDA+%26+GPU+Playground+Architect;Local+LLM+Inference+Engineer;Solana+%2B+IPFS+Web3+Developer)](https://git.io/typing-svg)
+
+<br/>
 
 </div>
 
 ---
 
-## `> SYSTEM BOOT`
+## `> WHOAMI`
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -27,12 +27,15 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 ## `> CORE DIRECTIVES`
 
-| Domain | Focus |
-|--------|-------|
-| **GPU / CUDA** | Browser CUDA playground, accel-sim profiling, warp divergence viz |
-| **AI Inference** | Local Ollama pipelines, prompt enhancers, multimodal indexing |
-| **Systems** | Win32 kernel-aware schedulers, multicore load balancing |
-| **Web3** | Solana + IPFS storage, blockchain voting, decentralized identity |
+<div align="center">
+
+| **GPU / CUDA** | **AI Inference** | **Systems** | **Web3** |
+|:--------------:|:----------------:|:-----------:|:--------:|
+| Browser CUDA playground | Local Ollama pipelines | Win32 kernel schedulers | Solana + IPFS storage |
+| accel-sim profiling | Prompt enhancers | Multicore load balancing | Blockchain voting |
+| Warp divergence viz | Multimodal indexing | Real-time telemetry | Decentralized identity |
+
+</div>
 
 ---
 
@@ -40,9 +43,8 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <div align="center">
 
-<img src="https://pixel-profile.vercel.app/api/github-stats?username=Codenuclei&theme=journey&dithering=true&hide=avatar" alt="Codenuclei GitHub Stats — Pixel Dither" />
-
-<img src="https://pixel-profile.vercel.app/api/github-contributions?username=Codenuclei&theme=journey&dithering=true" alt="Codenuclei Contributions — Pixel Dither" />
+<img src="https://pixel-profile.vercel.app/api/github-stats?username=Codenuclei&theme=journey&dithering=true&hide=avatar" width="49%" />
+<img src="https://pixel-profile.vercel.app/api/github-contributions?username=Codenuclei&theme=journey&dithering=true" width="49%" />
 
 </div>
 
@@ -53,17 +55,17 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 <div align="center">
 
 <a href="https://github.com/Codenuclei/multicore-load-balancing-with-kernel-detection">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=multicore-load-balancing-with-kernel-detection&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=multicore-load-balancing-with-kernel-detection&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" width="48%" />
 </a>
 <a href="https://github.com/Codenuclei/cuda-visualizer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=cuda-visualizer&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=cuda-visualizer&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" width="48%" />
 </a>
 
 <a href="https://github.com/Codenuclei/video-image-search-indexer-quality">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=video-image-search-indexer-quality&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=video-image-search-indexer-quality&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" width="48%" />
 </a>
 <a href="https://github.com/Codenuclei/ipfs-storage-solana">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=ipfs-storage-solana&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codenuclei&repo=ipfs-storage-solana&theme=radical&border_color=00ff41&bg_color=0d1117&title_color=00ff41&icon_color=00ff41" width="48%" />
 </a>
 
 </div>
@@ -109,7 +111,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 ---
 
-## `> ACTIVITY GRAPH`
+## `> ACTIVITY`
 
 <div align="center">
 
@@ -127,13 +129,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:abhishekghosh.air1@gmail.com)
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/YOUR_LINKEDIN)
 
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=120&section=footer" width="100%" />
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=Codenuclei&color=00ff41&style=flat-square&label=PROFILE+VIEWS" />
 
