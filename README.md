@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6EE7F9&center=true&vCenter=true&width=760&lines=Signal+Detected+in+the+Overgrowth...;Kernel-Aware+Systems+Builder;CUDA+%26+GPU+Playground+Architect;Local+LLM+Inference+Engineer;Solana+%2B+IPFS+Web3+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=6EE7F9&center=true&vCenter=true&width=760&lines=Signal+Detected+in+the+Overgrowth...;Kernel-Aware+Systems+Builder;CUDA+%26+GPU+Playground+Architect;Local+LLM+Inference+Engineer;Solana+%2B+IPFS+Web3+Developer)](https://git.io/typing-svg)
 
 <br/>
 
@@ -20,45 +20,45 @@
 
 <br/>
 
-## 🌿 &nbsp;Transmission Log — About
+## <img src="https://api.iconify.design/ph/leaf.svg?color=%2334d399" width="22" height="22" align="absmiddle" /> &nbsp;Transmission Log — About
 
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-about.png" width="100%" />
 
 I build at the intersection of **bare-metal systems**, **GPU compute**, **local AI inference**, and **decentralized storage** — the kind of work that survives even after everything else goes quiet. If it runs close to the metal or on-chain, I want to understand it, break it, and rebuild it.
 
 **Currently:**
-- 🔭 Building browser-native GPU tooling that needs zero hardware to profile real CUDA behavior
-- 🧠 Deepening local LLM inference pipelines — retrieval, multimodal indexing, on-device generation
-- 🌐 Shipping Solana + IPFS storage primitives for decentralized apps
-- 🏆 SIH Internal 2025 &nbsp;·&nbsp; Microsoft GitHub Copilot Certification &nbsp;·&nbsp; Hackathon Winner
-- 🎯 2026 goal — ship one production-grade systems project every quarter
+- <img src="https://api.iconify.design/ph/rocket-launch.svg?color=%236ee7f9" width="18" height="18" align="absmiddle" /> &nbsp;Building browser-native GPU tooling that needs zero hardware to profile real CUDA behavior
+- <img src="https://api.iconify.design/ph/brain.svg?color=%23bc8cff" width="18" height="18" align="absmiddle" /> &nbsp;Deepening local LLM inference pipelines — retrieval, multimodal indexing, on-device generation
+- <img src="https://api.iconify.design/ph/globe-simple.svg?color=%2300d4aa" width="18" height="18" align="absmiddle" /> &nbsp;Shipping Solana + IPFS storage primitives for decentralized apps
+- <img src="https://api.iconify.design/ph/trophy.svg?color=%23fbbf24" width="18" height="18" align="absmiddle" /> &nbsp;SIH Internal 2025 &nbsp;·&nbsp; Microsoft GitHub Copilot Certification &nbsp;·&nbsp; Hackathon Winner
+- <img src="https://api.iconify.design/ph/target.svg?color=%23f472b6" width="18" height="18" align="absmiddle" /> &nbsp;2026 goal — ship one production-grade systems project every quarter
 
 <br/>
 
-## 🛰️ &nbsp;Core Directives
+## <img src="https://api.iconify.design/ph/circuitry.svg?color=%23a78bfa" width="22" height="22" align="absmiddle" /> &nbsp;Core Directives
 
 <table>
 <tr>
 <td width="50%">
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-gpu.png" width="100%" />
-<h3 align="center">⚡ GPU / CUDA</h3>
+<h3 align="center"><img src="https://api.iconify.design/ph/lightning.svg?color=%2376b900" width="20" height="20" align="absmiddle" /> &nbsp;GPU / CUDA</h3>
 <p align="center">Browser CUDA playground &nbsp;·&nbsp; accel-sim profiling &nbsp;·&nbsp; warp divergence visualization</p>
 </td>
 <td width="50%">
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-ai.png" width="100%" />
-<h3 align="center">🧠 AI Inference</h3>
+<h3 align="center"><img src="https://api.iconify.design/ph/brain.svg?color=%23bc8cff" width="20" height="20" align="absmiddle" /> &nbsp;AI Inference</h3>
 <p align="center">Local Ollama pipelines &nbsp;·&nbsp; prompt enhancers &nbsp;·&nbsp; multimodal face + video indexing</p>
 </td>
 </tr>
 <tr>
 <td width="50%">
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-systems.png" width="100%" />
-<h3 align="center">🔧 Systems</h3>
+<h3 align="center"><img src="https://api.iconify.design/ph/gear.svg?color=%23f85149" width="20" height="20" align="absmiddle" /> &nbsp;Systems</h3>
 <p align="center">Win32 kernel-aware schedulers &nbsp;·&nbsp; multicore load balancing &nbsp;·&nbsp; real-time telemetry</p>
 </td>
 <td width="50%">
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-web3.png" width="100%" />
-<h3 align="center">🌐 Web3</h3>
+<h3 align="center"><img src="https://api.iconify.design/ph/globe-simple.svg?color=%2300d4aa" width="20" height="20" align="absmiddle" /> &nbsp;Web3</h3>
 <p align="center">Solana + IPFS storage &nbsp;·&nbsp; blockchain voting &nbsp;·&nbsp; decentralized identity</p>
 </td>
 </tr>
@@ -66,13 +66,13 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <br/>
 
-## 📡 &nbsp;Archive Terminal — By The Numbers
+## <img src="https://api.iconify.design/ph/terminal-window.svg?color=%2360a5fa" width="22" height="22" align="absmiddle" /> &nbsp;Archive Terminal — By The Numbers
 
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-stats.png" width="100%" />
 
 <div align="center">
 
-| 📦 Public Repos | 🔀 Pull Requests | ✅ Merged | 🏢 Orgs Contributed |
+| <img src="https://api.iconify.design/ph/package.svg?color=%236ee7f9" width="18" height="18" align="absmiddle" /> Public Repos | <img src="https://api.iconify.design/ph/git-branch.svg?color=%23bc8cff" width="18" height="18" align="absmiddle" /> Pull Requests | <img src="https://api.iconify.design/ph/check-circle.svg?color=%2334d399" width="18" height="18" align="absmiddle" /> Merged | <img src="https://api.iconify.design/ph/buildings.svg?color=%23fbbf24" width="18" height="18" align="absmiddle" /> Orgs Contributed |
 |:---:|:---:|:---:|:---:|
 | **48** | **31** | **26** | **10+** |
 
@@ -85,7 +85,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <br/>
 
-## 🛠️ &nbsp;The Workshop — Featured Builds
+## <img src="https://api.iconify.design/ph/wrench.svg?color=%23fbbf24" width="22" height="22" align="absmiddle" /> &nbsp;The Workshop — Featured Builds
 
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-workshop.png" width="100%" />
 
@@ -104,7 +104,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <br/>
 
-## 🧰 &nbsp;Tech Arsenal
+## <img src="https://api.iconify.design/ph/stack.svg?color=%23f472b6" width="22" height="22" align="absmiddle" /> &nbsp;Tech Arsenal
 
 <div align="center">
 
@@ -143,7 +143,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <br/>
 
-## 📈 &nbsp;Activity
+## <img src="https://api.iconify.design/ph/chart-line-up.svg?color=%2338bdf8" width="22" height="22" align="absmiddle" /> &nbsp;Activity
 
 <div align="center">
 
@@ -153,7 +153,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <br/>
 
-## 🗺️ &nbsp;Roadmap
+## <img src="https://api.iconify.design/ph/map-trifold.svg?color=%23fb923c" width="22" height="22" align="absmiddle" /> &nbsp;Roadmap
 
 | Quarter | Focus |
 |---|---|
@@ -164,7 +164,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <br/>
 
-## 🏮 &nbsp;End Transmission — Connect
+## <img src="https://api.iconify.design/ph/campfire.svg?color=%23f87171" width="22" height="22" align="absmiddle" /> &nbsp;End Transmission — Connect
 
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/scene-footer.png" width="100%" />
 
