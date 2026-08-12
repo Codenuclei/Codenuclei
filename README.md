@@ -1,6 +1,12 @@
 <div align="center">
 
+<!-- Pixel-art banner -->
 <img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/header.png" width="100%" />
+
+<br/>
+
+<!-- Animated CSS SVG header -->
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/animated-header.svg" width="100%" />
 
 <br/>
 
@@ -29,11 +35,7 @@ I build at the intersection of **bare-metal systems**, **GPU compute**, **local 
 
 <div align="center">
 
-| **GPU / CUDA** | **AI Inference** | **Systems** | **Web3** |
-|:--------------:|:----------------:|:-----------:|:--------:|
-| Browser CUDA playground | Local Ollama pipelines | Win32 kernel schedulers | Solana + IPFS storage |
-| accel-sim profiling | Prompt enhancers | Multicore load balancing | Blockchain voting |
-| Warp divergence viz | Multimodal indexing | Real-time telemetry | Decentralized identity |
+<img src="https://raw.githubusercontent.com/Codenuclei/Codenuclei/main/assets/directives.svg" width="100%" />
 
 </div>
 
