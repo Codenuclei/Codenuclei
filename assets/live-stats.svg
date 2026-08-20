@@ -21,7 +21,7 @@
   <g class="card" transform="translate(298.0,20.0)" style="animation-delay:-0.0s">
     <rect width="175.0" height="110" rx="12" fill="#12121a" stroke="url(#cg0)" stroke-width="1.5" filter="url(#glass)"/>
     <text x="14" y="32" fill="#8b93a8" font-size="9" letter-spacing="0.5">PUBLIC REPOS</text>
-    <text x="14" y="76" fill="url(#cg0)" font-size="34" font-weight="bold" class="stat-num">48</text>
+    <text x="14" y="76" fill="url(#cg0)" font-size="34" font-weight="bold" class="stat-num">49</text>
   </g>
   <g class="card" transform="translate(489.0,20.0)" style="animation-delay:-1.5s">
     <rect width="175.0" height="110" rx="12" fill="#12121a" stroke="url(#cg1)" stroke-width="1.5" filter="url(#glass)"/>
@@ -37,10 +37,10 @@
     <text x="24" y="0" fill="#8b93a8" font-size="11" letter-spacing="2">LANGUAGE MIX — LIVE FROM GITHUB API</text>
     <g transform="translate(0,16)">
       <rect x="24" y="0" width="1104" height="28" rx="6" fill="#12121a" stroke="#2a2a3a"/>
-      <rect class="bar" x="24" y="2" width="368" height="24" rx="4" fill="#3178c6" style="animation-delay:0.00s"/><rect class="bar" x="392" y="2" width="286" height="24" rx="0" fill="#e34c26" style="animation-delay:0.08s"/><rect class="bar" x="678" y="2" width="204" height="24" rx="0" fill="#3572A5" style="animation-delay:0.16s"/><rect class="bar" x="882" y="2" width="164" height="24" rx="0" fill="#f1e05a" style="animation-delay:0.24s"/><rect class="bar" x="1046" y="2" width="41" height="24" rx="0" fill="#DA5B0B" style="animation-delay:0.32s"/><rect class="bar" x="1087" y="2" width="41" height="24" rx="4" fill="#AA6746" style="animation-delay:0.40s"/>
+      <rect class="bar" x="24" y="2" width="394" height="24" rx="4" fill="#3178c6" style="animation-delay:0.00s"/><rect class="bar" x="418" y="2" width="276" height="24" rx="0" fill="#e34c26" style="animation-delay:0.08s"/><rect class="bar" x="694" y="2" width="197" height="24" rx="0" fill="#3572A5" style="animation-delay:0.16s"/><rect class="bar" x="891" y="2" width="158" height="24" rx="0" fill="#f1e05a" style="animation-delay:0.24s"/><rect class="bar" x="1049" y="2" width="39" height="24" rx="0" fill="#DA5B0B" style="animation-delay:0.32s"/><rect class="bar" x="1088" y="2" width="39" height="24" rx="4" fill="#AA6746" style="animation-delay:0.40s"/>
     </g>
     <g transform="translate(0,68)">
-      <circle cx="24" cy="0" r="5" fill="#3178c6"/><text x="34" y="4" fill="#c9d1d9" font-size="11">TypeScript 33%</text><circle cx="214" cy="0" r="5" fill="#e34c26"/><text x="224" y="4" fill="#c9d1d9" font-size="11">HTML 26%</text><circle cx="404" cy="0" r="5" fill="#3572A5"/><text x="414" y="4" fill="#c9d1d9" font-size="11">Python 19%</text><circle cx="594" cy="0" r="5" fill="#f1e05a"/><text x="604" y="4" fill="#c9d1d9" font-size="11">JavaScript 15%</text><circle cx="784" cy="0" r="5" fill="#DA5B0B"/><text x="794" y="4" fill="#c9d1d9" font-size="11">Jupyter Notebook 4%</text><circle cx="974" cy="0" r="5" fill="#AA6746"/><text x="984" y="4" fill="#c9d1d9" font-size="11">Solidity 4%</text>
+      <circle cx="24" cy="0" r="5" fill="#3178c6"/><text x="34" y="4" fill="#c9d1d9" font-size="11">TypeScript 36%</text><circle cx="214" cy="0" r="5" fill="#e34c26"/><text x="224" y="4" fill="#c9d1d9" font-size="11">HTML 25%</text><circle cx="404" cy="0" r="5" fill="#3572A5"/><text x="414" y="4" fill="#c9d1d9" font-size="11">Python 18%</text><circle cx="594" cy="0" r="5" fill="#f1e05a"/><text x="604" y="4" fill="#c9d1d9" font-size="11">JavaScript 14%</text><circle cx="784" cy="0" r="5" fill="#DA5B0B"/><text x="794" y="4" fill="#c9d1d9" font-size="11">Jupyter Notebook 4%</text><circle cx="974" cy="0" r="5" fill="#AA6746"/><text x="984" y="4" fill="#c9d1d9" font-size="11">Solidity 4%</text>
     </g>
   </g>
   <text x="24" y="276" fill="#5a6272" font-size="9">auto-generated · github actions · zero third-party dependency</text>
