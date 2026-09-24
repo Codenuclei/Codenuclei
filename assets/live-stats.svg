@@ -21,7 +21,7 @@
   <g class="card" transform="translate(298.0,20.0)" style="animation-delay:-0.0s">
     <rect width="175.0" height="110" rx="12" fill="#12121a" stroke="url(#cg0)" stroke-width="1.5" filter="url(#glass)"/>
     <text x="14" y="32" fill="#8b93a8" font-size="9" letter-spacing="0.5">PUBLIC REPOS</text>
-    <text x="14" y="76" fill="url(#cg0)" font-size="34" font-weight="bold" class="stat-num">49</text>
+    <text x="14" y="76" fill="url(#cg0)" font-size="34" font-weight="bold" class="stat-num">48</text>
   </g>
   <g class="card" transform="translate(489.0,20.0)" style="animation-delay:-1.5s">
     <rect width="175.0" height="110" rx="12" fill="#12121a" stroke="url(#cg1)" stroke-width="1.5" filter="url(#glass)"/>
